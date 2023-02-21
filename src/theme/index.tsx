@@ -1,4 +1,5 @@
-import { TypeBackground, TypeText, createTheme } from '@mui/material/styles';
+import { TypeBackground } from "@mui/material";
+import { TypeText, createTheme } from '@mui/material/styles';
 
 export interface CustomTypeBackground extends TypeBackground {
   default: string;
