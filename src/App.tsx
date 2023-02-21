@@ -1,16 +1,19 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider  } from '@mui/material/styles';
+import { ThemeProvider as ThemeProviderLegacy } from "@mui/styles";
 import Routes from './routes';
 import Theme from 'theme';
 
 const App: React.FC = () => {
   return(
     <ThemeProvider theme={Theme}>
-      <CssBaseline/> 
-        App running...
-      <Routes></Routes>
+      <ThemeProviderLegacy theme={Theme}>
+        <CssBaseline/> 
+          App running...
+        <Routes></Routes>
+      </ThemeProviderLegacy>
     </ThemeProvider>
   )
 }
