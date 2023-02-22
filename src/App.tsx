@@ -3,7 +3,7 @@ import React from 'react';
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider  } from '@mui/material/styles';
 import { ThemeProvider as ThemeProviderLegacy } from "@mui/styles";
-import Routes from './routes';
+import Routes from './components/routes';
 import Theme from 'theme';
 
 const App: React.FC = () => {
