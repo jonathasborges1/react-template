@@ -1,10 +1,12 @@
 import React from 'react';
 // import './App.css';
+
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider  } from '@mui/material/styles';
 import { ThemeProvider as ThemeProviderLegacy } from "@mui/styles";
+
 import Routes from './components/routes';
-import Theme from 'theme';
+import Theme from './theme';
 
 const App: React.FC = () => {
   return(
